@@ -91,4 +91,3 @@ if selected_mbti:
 st.markdown("---")
 st.caption("궁금한 점이 있다면 언제든지 물어보세요! 😄")
 
-streamlit run mbti_major_app_emoji.py
