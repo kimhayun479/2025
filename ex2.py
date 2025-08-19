@@ -245,7 +245,7 @@ if st.button("🎵 노래 추천 받기"):
                 with col2:
                     st.markdown(f"#### {i+1}. {song['title']}")
                     st.markdown(f"**아티스트**: {song['artist']}")
-                                       st.markdown(f"**앨범**: {song['album']}")
+                    st.markdown(f"**앨범**: {song['album']}")
                     st.markdown(f"**발매년도**: {song['year']}")
                     
                     # 에너지 레벨 시각화
