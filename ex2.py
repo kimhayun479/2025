@@ -176,12 +176,3 @@ if st.sidebar.button("제안하기"):
     else:
         st.sidebar.warning("제안할 증상을 입력해주세요.")
 
-# 프로그램 실행 방법
-st.markdown("""
-<br>
-<br>
-### 💡 스트림릿 프로그램 실행 방법:
-1.  위 코드를 `symptom_guide.py`와 같은 이름으로 저장합니다.
-2.  터미널(명령 프롬프트)에서 해당 파일이 있는 디렉토리로 이동합니다.
-3.  `streamlit run symptom_guide.py` 명령어를 입력하여 실행합니다.
-""", unsafe_allow_html=True)
